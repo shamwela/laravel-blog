@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply p-8;
+}
+
+a {
+    @apply text-blue-600 hover:underline;
+}
+
+h1,
+h2,
+h3 {
+    @apply font-bold;
+}
+
+h1 {
+    @apply text-3xl text-center;
+}
+
+input,
+button,
+[type="submit"],
+textarea {
+    @apply py-1 px-3 rounded-lg;
+}
+
+input,
+textarea {
+    @apply border-2 border-black;
+}
+
+button,
+[type="submit"] {
+    @apply bg-blue-600 text-white cursor-pointer;
+}
+
+.danger {
+    @apply bg-red-600;
+}
+
+form {
+    @apply m-0;
+}
+
+img {
+    @apply w-full md:max-w-md;
+}
